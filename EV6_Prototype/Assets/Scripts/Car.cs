@@ -42,7 +42,18 @@ public class Car : MonoBehaviour
     {
         GameManager.Instance.CurrentTyre = _index;
         Debug.Log("현재 타이어는? " + _index);
-    
+
+        foreach (GameObject go in tyre_list)
+        {
+            if(go)
+            {
+                go.SetActive(false);
+            }
+        }
+
+        tyre_list[GameManager.Instance.CurrentTyre].SetActive(true);
+
+
     }
 
   
