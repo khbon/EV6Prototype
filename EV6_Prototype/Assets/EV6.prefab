@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5425794116242228313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8917384275114056954, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725071937313237991, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: -6624355800692452097, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: -5482941248480657318, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: -5391207234161107833, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: -3589943296000106649, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: -3542043001709956556, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: -3332164988441656332, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_Name
+      value: EV6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275618498994667081, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467336688678259000, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 4682573305462123455, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 5732520269588401510, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069771039944656318, guid: 18a49ce4aa969334488c06389456b094, type: 3}
+      propertyPath: m_TagString
+      value: CarBody
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18a49ce4aa969334488c06389456b094, type: 3}
