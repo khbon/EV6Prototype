@@ -58,14 +58,14 @@ PrefabInstance:
     - target: {fileID: -2104478676850546810, guid: d23ce69b4dd36f5499b8dc0e347f6d19, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f89eb7a9bb0eb714892522c9d1b1b711, type: 2}
+      objectReference: {fileID: 2100000, guid: 16146d9d049af6d44862777467da97b8, type: 2}
     - target: {fileID: 438661990412932812, guid: d23ce69b4dd36f5499b8dc0e347f6d19, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f89eb7a9bb0eb714892522c9d1b1b711, type: 2}
     - target: {fileID: 919132149155446097, guid: d23ce69b4dd36f5499b8dc0e347f6d19, type: 3}
       propertyPath: m_Name
-      value: TyrePrefab_01
+      value: TyrePrefab_02
       objectReference: {fileID: 0}
     - target: {fileID: 5381958618580519498, guid: d23ce69b4dd36f5499b8dc0e347f6d19, type: 3}
       propertyPath: m_Materials.Array.data[0]

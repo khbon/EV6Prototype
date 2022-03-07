@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    public Car mainCar;
 
     private int currentColor = 0;
     public int CurrentColor { get; set; }
