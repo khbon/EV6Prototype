@@ -122,6 +122,15 @@ MonoBehaviour:
   bodyColor_list:
   - {fileID: 2100000, guid: 14e2af8045c4ab142b07932830342413, type: 2}
   - {fileID: 2100000, guid: cf967b77f0fea09469eab2d115e7c481, type: 2}
+  carImage_list:
+  - {fileID: 21300000, guid: 65673d9d309d0ae4a85c62f14014d58c, type: 3}
+  - {fileID: 21300000, guid: 67597785f3d7f8e43a96838f2e39b36a, type: 3}
+  colorImage_list:
+  - {fileID: 21300000, guid: b8d1061542c71164e9861dba5aed0bd2, type: 3}
+  - {fileID: 21300000, guid: 90e83ecf85fed83449dbfeade4edc225, type: 3}
+  tyreImage_list:
+  - {fileID: 21300000, guid: a23944a174b17f747a3f686c445dd8fe, type: 3}
+  - {fileID: 21300000, guid: ed83a97832af2c64a8105186b2d956c2, type: 3}
 --- !u!1001 &2145641590010792050
 PrefabInstance:
   m_ObjectHideFlags: 0

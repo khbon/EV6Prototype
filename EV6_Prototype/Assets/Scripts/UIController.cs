@@ -40,13 +40,24 @@ public class UIController : MonoBehaviour
 
         if (_category == Category.ECarType)
         {
-            for(int i =0 ;i < content_list.Count; i++)
+            for (int i = 0; i < content_list.Count; i++)
             {
-                //if(i < )
-                //{
+                if(content_list[i].GetComponent<ChangeSlot>())
+                {
+                    content_list[i].GetComponent<ChangeSlot>().UpdateData(i, currentCategory);
 
-                //}
+                }
+
+                if (i < ev6.car_list.Count)
+                {
+                    content_list[i].SetActive(true);
+                }
+                else
+                {
+                    content_list[i].SetActive(false);
+                }
             }
+
         }
         else if (_category == Category.EBodyColor)
         {

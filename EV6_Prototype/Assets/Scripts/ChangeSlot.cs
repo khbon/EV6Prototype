@@ -20,6 +20,38 @@ public class ChangeSlot : MonoBehaviour
     {
         index = _index;
         currentCategory = _category;
+        UpdateUI();
+    }
+    public void UpdateUI()
+    {
+        Car mainCar = GameManager.Instance.mainCar;
+
+        if (currentCategory == Category.ECarType)
+        {
+            if(mainCar.carImage_list.Count > index)
+            {
+                button.GetComponent<Image>().sprite = mainCar.carImage_list[index];
+            }
+           
+        }
+        else if (currentCategory == Category.EBodyColor)
+        {
+            if (mainCar.colorImage_list.Count > index)
+            {
+                button.GetComponent<Image>().sprite = mainCar.colorImage_list[index];
+            }
+           
+
+        }
+        else if (currentCategory == Category.ETyre)
+        {
+            if (mainCar.tyreImage_list.Count > index)
+            {
+                button.GetComponent<Image>().sprite = mainCar.tyreImage_list[index];
+            }
+            
+        }
+
     }
 
     public void Change()

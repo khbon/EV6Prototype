@@ -1,14 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Car : MonoBehaviour
 {
     GameObject[] body_array;
 
     public string tagName;
+
+    public List<GameObject> car_list = new List<GameObject>();
     public List<GameObject> tyre_list = new List<GameObject>();
     public List<Material> bodyColor_list = new List<Material>();
+
+    public List<Sprite> carImage_list = new List<Sprite>();
+    public List<Sprite> colorImage_list = new List<Sprite>();
+    public List<Sprite> tyreImage_list = new List<Sprite>();
+
 
     // Start is called before the first frame update
     protected virtual void Start()

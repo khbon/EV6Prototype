@@ -5820,6 +5820,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1660999487, guid: 4ee6a30ac61ed744dae742bc2ba7676a, type: 3}
+      propertyPath: carImage_list.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 65673d9d309d0ae4a85c62f14014d58c, type: 3}
+    - target: {fileID: 1660999487, guid: 4ee6a30ac61ed744dae742bc2ba7676a, type: 3}
+      propertyPath: carImage_list.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 67597785f3d7f8e43a96838f2e39b36a, type: 3}
     - target: {fileID: 466791109087291866, guid: 4ee6a30ac61ed744dae742bc2ba7676a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
