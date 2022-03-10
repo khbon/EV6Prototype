@@ -749,6 +749,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Teleport Active",
+                    "type": "Button",
+                    "id": "c3b159e5-ed35-4473-a5cd-a74e86627ce6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1101,6 +1110,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "UI Press Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68fdda4a-3fd1-4ab1-97dc-b5cf2fa45778",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "Continuous Move",
+                    "action": "Teleport Active",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -36,6 +36,8 @@ public class UIController : MonoBehaviour
         bodyColor.onClick.AddListener(() => ChangeUI(Category.EBodyColor));
         tyre.onClick.AddListener(() => ChangeUI(Category.ETyre));
 
+        ChangeUI(currentCategory);
+
     }
 
 

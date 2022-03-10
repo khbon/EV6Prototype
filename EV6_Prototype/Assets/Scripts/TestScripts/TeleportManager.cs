@@ -21,6 +21,7 @@ public class TeleportManager : MonoBehaviour
 
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +55,14 @@ public class TeleportManager : MonoBehaviour
         var onMenu = actionAsset.FindActionMap("XRI LeftHand").FindAction("On Menu");
         onMenu.Enable();
         onMenu.performed += OnMenu;
+
+        var telportActive = actionAsset.FindActionMap("XRI RightHand").FindAction("Teleport Active");
+        telportActive.Enable();
+        telportActive.performed += TeleportActive;
+
+        //targetPoint = GameManager.Instance.startPosition;
+        //Teleport();
+      
     }
 
     // Update is called once per frame
@@ -98,10 +107,14 @@ public class TeleportManager : MonoBehaviour
 
             targetPoint = hit.collider.gameObject;
             Debug.Log("충돌 오브젝트는? " + targetPoint.ToString());
-            if (!targetPoint.GetComponent<TeleporterAnim>().m_Highlighted)
+            if(_isActive)
             {
-                targetPoint.GetComponent<TeleporterAnim>().StartHighlight();
+                if (!targetPoint.GetComponent<TeleporterAnim>().m_Highlighted)
+                {
+                    targetPoint.GetComponent<TeleporterAnim>().StartHighlight();
+                }
             }
+            
             
         }
         else
@@ -129,6 +142,14 @@ public class TeleportManager : MonoBehaviour
 
 
     }
+    public void TeleportActive(InputAction.CallbackContext context)
+    {
+        
+        _isActive = !_isActive;
+        Debug.Log("오른쪽 썸스틱 눌러서 활성화" + _isActive);
+        if (!_isActive)
+            Teleport();
+    }
     public void OnMenu(InputAction.CallbackContext context)
     {
         Debug.Log("메뉴버튼 눌렀어");
@@ -145,11 +166,34 @@ public class TeleportManager : MonoBehaviour
 
         //}
     }
+    public void Teleport()
+    {
+        if (!targetPoint)
+            return;
+      
+        Vector3 dir = GameManager.Instance.mainCar.transform.position - targetPoint.GetComponent<TeleporterAnim>().anchor.transform.position;
+        dir.y = 0;
+
+        Quaternion rot = Quaternion.LookRotation(dir.normalized);
+
+
+        Debug.Log("트리거 눌렸다.");
+        TeleportRequest request = new TeleportRequest()
+        {
+            destinationPosition = targetPoint.GetComponent<TeleporterAnim>().anchor.transform.position,
+            destinationRotation = rot
+
+        };
+        provider.QueueTeleportRequest(request);
+
+        gameObject.transform.rotation = rot;
+    }
     public void OnTeleport(InputAction.CallbackContext context)
     {
         if (!targetPoint)
             return;
-
+        if (!_isActive)
+            return;
         Vector3 dir = GameManager.Instance.mainCar.transform.position - targetPoint.GetComponent<TeleporterAnim>().anchor.transform.position;
         dir.y = 0;
 

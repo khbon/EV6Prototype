@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     
     public int CurrentTyre { get; set; }
 
+
+    public GameObject startPosition; 
     private void Awake()
     {
         if (Instance == null)
@@ -26,9 +28,17 @@ public class GameManager : MonoBehaviour
     void Start()
     {
 
-        
+        InitContents();
+    }
+    public void InitContents()
+    {
+
     }
 
+    public void StartPosition()
+    {
+
+    }
     // Update is called once per frame
     void Update()
     {

@@ -14,7 +14,7 @@ public class ScreenShotCamera : MonoBehaviour
     //[System.Serializable]
     public GameObject mycameraobj; //SetActive용 임시
     public Camera Mycamera;       //보여지는 카메라.
-    public RawImage Image;      //스크린샷이 적용될 UI
+    public RawImage image;      //스크린샷이 적용될 UI
 
     int resWidth;
     int resHeight;
@@ -24,8 +24,8 @@ public class ScreenShotCamera : MonoBehaviour
     void Start()
     {
         //RawImage해상도에 따라 조절
-        resWidth = (int)Image.rectTransform.rect.width; //Screen.width;
-        resHeight = (int)Image.rectTransform.rect.height; //Screen.height;
+        resWidth = (int)image.rectTransform.rect.width; //Screen.width;
+        resHeight = (int)image.rectTransform.rect.height; //Screen.height;
         //string sizeStinrg = "Size = " + resWidth + ", " + resHeight;
         //Debug.Log(sizeStinrg);
 
@@ -54,7 +54,7 @@ public class ScreenShotCamera : MonoBehaviour
         {
             dt -= 1.0f;
             string temp_s = "Frame = " + frame.ToString();
-            Debug.Log(temp_s);
+           // Debug.Log(temp_s);
             frame = 0;
         }
     }
@@ -64,6 +64,9 @@ public class ScreenShotCamera : MonoBehaviour
     {
         if (mycameraobj)
         {
+            if (!image.enabled)
+                image.enabled = true;
+
             mycameraobj.SetActive(true);
 
             //스크린샷
@@ -77,7 +80,7 @@ public class ScreenShotCamera : MonoBehaviour
             screenShot.Apply();
 
             //텍스쳐적용
-            Image.texture = screenShot;
+            image.texture = screenShot;
 
             mycameraobj.SetActive(false);
         }

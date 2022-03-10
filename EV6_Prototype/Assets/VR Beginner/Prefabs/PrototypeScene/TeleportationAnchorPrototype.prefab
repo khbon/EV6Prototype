@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2282336950282846500}
   - component: {fileID: 2282336950282846496}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: TeleportationAnchorPrototype
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2282336951264404694}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 5847812941215691953}
   - component: {fileID: 5847812941215691958}
   - component: {fileID: 5847812941215691959}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: GlyphQuad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 8938631692146953026}
   - component: {fileID: 1833191625520553981}
   - component: {fileID: 8962992045523174132}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: TeleporterBeamRed
   m_TagString: TeleportPoint
   m_Icon: {fileID: 0}
