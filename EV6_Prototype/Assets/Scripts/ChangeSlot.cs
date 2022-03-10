@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class ChangeSlot : MonoBehaviour
+//추가 임시 수정라인
+using UnityEngine.EventSystems;
+public class ChangeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public Category currentCategory;
     public int index = 0;
@@ -14,6 +15,10 @@ public class ChangeSlot : MonoBehaviour
     void Start()
     {
         button.onClick.AddListener(Change);
+        //추가 임시 수정라인
+        ScrennShotScript = UICanvas.GetComponent<ScreenShotCamera>();
+        if (ScrennShotScript)
+            Debug.Log("scriptLoad Sucess");
     }
 
     public void UpdateData(int _index, Category _category)
@@ -63,11 +68,15 @@ public class ChangeSlot : MonoBehaviour
         else if (currentCategory == Category.EBodyColor)
         {
             GameManager.Instance.mainCar.SetBodyColor(index);
+            ////추가 임시 수정라인
+            ScrennShotScript.ClickScreenShot();
 
         }
         else if (currentCategory == Category.ETyre)
         {
             GameManager.Instance.mainCar.SetTyres(index);
+            ////추가 임시 수정라인
+            ScrennShotScript.ClickScreenShot();
         }
     }
 
@@ -75,5 +84,30 @@ public class ChangeSlot : MonoBehaviour
     void Update()
     {
         
+    }
+    //추가 임시 수정라인
+    public GameObject UICanvas;
+    public ScreenShotCamera ScrennShotScript;
+    int color_num;
+    int tire_num;
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        Debug.Log("hover");
+        if (currentCategory == Category.EBodyColor)
+            color_num = GameManager.Instance.CurrentColor;
+        if (currentCategory == Category.ETyre)
+            tire_num = GameManager.Instance.CurrentTyre;
+        Change();
+        if (currentCategory == Category.EBodyColor)
+            GameManager.Instance.mainCar.SetBodyColor(color_num);
+        if (currentCategory == Category.ETyre)
+            GameManager.Instance.mainCar.SetTyres(tire_num);
+
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        Debug.Log("end hover");
+        //서브스크린을 초기화 할거라면 여기서 처리
     }
 }
