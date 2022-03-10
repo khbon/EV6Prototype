@@ -9,8 +9,10 @@ public class Car : MonoBehaviour
 
     public string tagName;
 
-    public List<GameObject> car_list = new List<GameObject>();
     public List<GameObject> tyre_list = new List<GameObject>();
+
+    public List<GameObject> car_list = new List<GameObject>();
+    public List<GameObject> tyrePrefab_list = new List<GameObject>();
     public List<Material> bodyColor_list = new List<Material>();
 
     public List<Sprite> carImage_list = new List<Sprite>();

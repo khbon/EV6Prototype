@@ -11,9 +11,9 @@ public enum Category
     ETyre =2
 }
 
-
 public class UIController : MonoBehaviour
 {
+    public static UIController instance;
     public Button carType;
     public Button bodyColor;
     public Button tyre;
@@ -22,6 +22,13 @@ public class UIController : MonoBehaviour
 
     public Category currentCategory = Category.ECarType;
 
+    private void Awake()
+    {
+        if( instance == null)
+        {
+            instance = this;
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +37,7 @@ public class UIController : MonoBehaviour
         tyre.onClick.AddListener(() => ChangeUI(Category.ETyre));
 
     }
+
 
     public void ChangeUI(Category _category)
     {

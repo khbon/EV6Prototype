@@ -1,37 +1,71 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3950497986868014358
+--- !u!1001 &731484202496401790
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6053347597329430193}
+    m_Modifications:
+    - target: {fileID: 3543607104535112381, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_Name
+      value: ATyre_Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543607104535112381, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_RootOrder
+      value: 141
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+--- !u!1 &4254682163603442627 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3543607104535112381, guid: aaca730e9df3dee4fbcddd293aa8441e, type: 3}
+  m_PrefabInstance: {fileID: 731484202496401790}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5950919193368288229}
-  m_Layer: 0
-  m_Name: Tyre_01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5950919193368288229
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3950497986868014358}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.695, y: 0.371, z: 1.436}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 9079917055937719220}
-  - {fileID: 466791109087291866}
-  m_Father: {fileID: 6053347597329430193}
-  m_RootOrder: 140
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1785463862396474627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39,9 +73,241 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 437987950890467146, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 437987950890467146, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 517671550848796843, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 517671550848796843, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 662158911610169550, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: black_matt_01_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 662158911610169550, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 662158911610169550, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 1118370587382175082, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1118370587382175082, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350375232662634874, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350375232662634874, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379399809276324112, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379399809276324112, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124889480222542602, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124889480222542602, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255310019704231014, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255310019704231014, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300841171199267496, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300841171199267496, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2389864556613426369, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2389864556613426369, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468581654002962586, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468581654002962586, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498841288526624021, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: silver_04_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498841288526624021, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498841288526624021, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596756406954871815, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596756406954871815, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791528770390324262, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791528770390324262, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821588795562900933, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821588795562900933, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2982747743223694001, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: black_shiny_19_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 2982747743223694001, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2982747743223694001, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492792472625368134, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492792472625368134, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3510864776203734412, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3510864776203734412, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548173077897517888, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: brakes1_02_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548173077897517888, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548173077897517888, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3638188639876028436, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3638188639876028436, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767148898770189270, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767148898770189270, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926624443633552768, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926624443633552768, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955643707040895382, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955643707040895382, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964226067289485013, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: black_matt_03_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964226067289485013, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964226067289485013, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
     - target: {fileID: 5155815431852325128, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
       propertyPath: m_Name
       value: EV6_Prefab Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292029742168003861, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292029742168003861, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334617763636927999, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: black_matt_08_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334617763636927999, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334617763636927999, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
       objectReference: {fileID: 0}
     - target: {fileID: 5532375811320488882, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
       propertyPath: m_RootOrder
@@ -87,9 +353,173 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5550731451766366779, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550731451766366779, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623631216030624306, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: silver_d_02_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623631216030624306, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623631216030624306, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725508641232385682, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725508641232385682, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 5756042455332358476, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5756042455332358476, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769585838558949860, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: black_matt_05_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769585838558949860, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769585838558949860, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917377812069816940, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917377812069816940, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204618627476999960, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: tire_mat2_01_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204618627476999960, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220023912328485617, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220023912328485617, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234223595879985291, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6234223595879985291, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 6756235626494499018, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6756235626494499018, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862074874358533257, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862074874358533257, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 7078972526260801988, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7078972526260801988, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276373087917963971, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276373087917963971, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842612066138894073, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842612066138894073, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939791760673382727, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: chrome_04_t
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939791760673382727, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7939791760673382727, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067719339095802204, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067719339095802204, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 8696110762315713477, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8696110762315713477, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
     - target: {fileID: 9107086132093016286, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
       propertyPath: m_TagString
       value: CarBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 9120952641507939197, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9120952641507939197, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_TagString
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128774584630367497, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_Name
+      value: black_shiny_13t
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128774584630367497, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f437f71abffa86b44b200ba7a7cecda9, type: 3}
@@ -117,8 +547,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagName: CarBody
   tyre_list:
-  - {fileID: 8451436641051865358}
-  - {fileID: 950735227586949984}
+  - {fileID: 4254682163603442627}
+  - {fileID: 7541995058154080837}
+  car_list: []
+  tyrePrefab_list: []
   bodyColor_list:
   - {fileID: 2100000, guid: 14e2af8045c4ab142b07932830342413, type: 2}
   - {fileID: 2100000, guid: cf967b77f0fea09469eab2d115e7c481, type: 2}
@@ -131,137 +563,69 @@ MonoBehaviour:
   tyreImage_list:
   - {fileID: 21300000, guid: a23944a174b17f747a3f686c445dd8fe, type: 3}
   - {fileID: 21300000, guid: ed83a97832af2c64a8105186b2d956c2, type: 3}
---- !u!1001 &2145641590010792050
+--- !u!1001 &6451379428623327480
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 5950919193368288229}
+    m_TransformParent: {fileID: 6053347597329430193}
     m_Modifications:
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
-      propertyPath: m_RootOrder
+    - target: {fileID: 3543607104535112381, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
+      propertyPath: m_Name
+      value: BTyre_Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543607104535112381, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
+      propertyPath: m_RootOrder
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7534330245717440892, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
-      propertyPath: m_Name
-      value: TyrePrefab_01
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
---- !u!1 &8451436641051865358 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7534330245717440892, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
-  m_PrefabInstance: {fileID: 2145641590010792050}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &9079917055937719220 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7189013687196738502, guid: ca9605e3bebfd974980cfc52349b60da, type: 3}
-  m_PrefabInstance: {fileID: 2145641590010792050}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &5719415429628598417
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5950919193368288229}
-    m_Modifications:
-    - target: {fileID: 4786977451595246577, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_Name
-      value: TyrePrefab_02
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
+    - target: {fileID: 9186516579226658830, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
---- !u!1 &950735227586949984 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
+--- !u!1 &7541995058154080837 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 4786977451595246577, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-  m_PrefabInstance: {fileID: 5719415429628598417}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &466791109087291866 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5270638788846285131, guid: 1bd3b6b7b47ac154996d6c40f25019c5, type: 3}
-  m_PrefabInstance: {fileID: 5719415429628598417}
+  m_CorrespondingSourceObject: {fileID: 3543607104535112381, guid: 6e7ce9931185da4429b5a59ab42f0550, type: 3}
+  m_PrefabInstance: {fileID: 6451379428623327480}
   m_PrefabAsset: {fileID: 0}

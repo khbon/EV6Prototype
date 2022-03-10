@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 
 public class TeleporterAnim : MonoBehaviour
 {
-
+    public GameObject anchor;
     public float m_MaxAlphaIntensity = 1f;
     float m_MinAlphaIntensity = 0f;
     float m_CurrentTime = 0f;
@@ -14,7 +14,7 @@ public class TeleporterAnim : MonoBehaviour
     [SerializeField]
     float m_FadeSpeed = 2.2f;
 
-    bool m_Highlighted = false;
+    public bool m_Highlighted = false;
 
     [FormerlySerializedAs("meshRenderer")]
     [SerializeField]
