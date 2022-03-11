@@ -17,9 +17,9 @@ public class TeleportManager : MonoBehaviour
     private InputAction _thumbstick;
     bool _isActive = false;
 
-    public GameObject targetPoint; 
+    public GameObject targetPoint;
 
-
+    public GameObject cube;
 
 
     // Start is called before the first frame update
@@ -155,6 +155,8 @@ public class TeleportManager : MonoBehaviour
         Debug.Log("메뉴버튼 눌렀어");
         UIController.instance.gameObject.SetActive(!UIController.instance.gameObject.activeSelf);
 
+        UIController.instance.cube.GetComponent<MeshRenderer>().enabled = UIController.instance.gameObject.activeSelf;
+     
         //if (UIController.instance.gameObject.activeSelf)
         //{
         //    Debug.Log("이쪽??");

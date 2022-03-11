@@ -18,6 +18,7 @@ public class UIController : MonoBehaviour
     public Button bodyColor;
     public Button tyre;
 
+    public GameObject cube;
     public List<GameObject> content_list = new List<GameObject>();
 
     public Category currentCategory = Category.ECarType;

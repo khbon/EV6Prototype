@@ -202,7 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LineWidth: 0.02
+  m_LineWidth: 0.005
   m_OverrideInteractorLineLength: 1
   m_LineLength: 0.3
   m_WidthCurve:
@@ -2295,6 +2295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeleportationAnchorPrototype (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2485,6 +2489,10 @@ PrefabInstance:
     - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_Name
       value: TeleportationAnchorPrototype (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_RootOrder
@@ -2738,6 +2746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeleportationAnchorPrototype (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2861,7 +2873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.657
+      value: -0.35
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2869,7 +2881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.233
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4020,6 +4032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeleportationAnchorPrototype (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4855,6 +4871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeleportationAnchorPrototype (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -5043,6 +5063,7 @@ MonoBehaviour:
   rayInteractor: {fileID: 0}
   provider: {fileID: 312289075}
   targetPoint: {fileID: 0}
+  cube: {fileID: 0}
 --- !u!1 &1811205246
 GameObject:
   m_ObjectHideFlags: 0
@@ -5770,7 +5791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.294
+      value: 1.08
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5778,7 +5799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.749
+      value: 4.62
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5998,6 +6019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeleportationAnchorPrototype (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -6040,6 +6065,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847812941215691952, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847812941215691952, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847812941215691952, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219463883988533150, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7219463883988533150, guid: 21a9b655c2d703344abc684145092a05, type: 3}
@@ -6831,6 +6872,10 @@ PrefabInstance:
     - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_Name
       value: TeleportationAnchorPrototype (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05, type: 3}
       propertyPath: m_RootOrder
